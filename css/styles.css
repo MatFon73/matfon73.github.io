@@ -874,7 +874,10 @@ h1 {
     .container {
         flex-direction: column;
         overflow-y: auto;
-        margin-bottom: 1.5rem;
+    }
+
+    .content {
+        margin-bottom: 2.5rem;
     }
 
     .section {
