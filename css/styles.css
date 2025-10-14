@@ -874,6 +874,7 @@ h1 {
     .container {
         flex-direction: column;
         overflow-y: auto;
+        margin-bottom: 1.5rem;
     }
 
     .section {
@@ -1055,7 +1056,7 @@ h1 {
     }
 
     .code-decoration {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
         padding: 1rem;
         overflow-x: auto;
     }

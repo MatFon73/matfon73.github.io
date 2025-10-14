@@ -447,6 +447,7 @@ function attachCtaListeners() {
 document.addEventListener('DOMContentLoaded', () => {
     loadSection('home');
 
+    // Navegación
     document.querySelectorAll('.nav-link').forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
@@ -458,28 +459,32 @@ document.addEventListener('DOMContentLoaded', () => {
     const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
     const sidebar = document.getElementById('sidebar');
     const icon = mobileMenuToggle.querySelector('i');
+    const text = mobileMenuToggle.querySelector('span'); // por si tienes texto al lado del ícono
 
+    // --- Clic en el botón del menú ---
     mobileMenuToggle.addEventListener('click', () => {
         sidebar.classList.toggle('active');
 
         if (sidebar.classList.contains('active')) {
-            icon.classList.remove('fa-bars');
-            icon.classList.add('fa-xmark');
+            icon.classList.replace('fa-burger', 'fa-xmark');
+            if (text) text.textContent = 'Cerrar';
         } else {
-            icon.classList.remove('fa-xmark');
-            icon.classList.add('fa-bars');
+            icon.classList.replace('fa-xmark', 'fa-burger');
+            if (text) text.textContent = 'Menú';
         }
     });
 
+    // --- Clic fuera del menú ---
     document.addEventListener('click', (e) => {
-        if (window.innerWidth <= 768 &&
+        if (
+            window.innerWidth <= 768 &&
             sidebar.classList.contains('active') &&
             !sidebar.contains(e.target) &&
-            !mobileMenuToggle.contains(e.target)) {
+            !mobileMenuToggle.contains(e.target)
+        ) {
             sidebar.classList.remove('active');
-            icon.classList.remove('fa-circle-xmark');
-            icon.classList.add('fa-burger');
+            icon.classList.replace('fa-xmark', 'fa-burger');
+            if (text) text.textContent = 'Menú';
         }
     });
-
 });
