@@ -336,15 +336,17 @@ const content = {
                 </div>
                 
                 <div class="project-card">
-                    <span class="status-badge status-completed">Completado</span>
+                    <span class="status-badge status-completed">En Proceso</span>
                     <h3 class="project-title">BalatroEditor</h3>
                     <p class="project-description">
                         Editor personalizado para el juego Balatro, permitiendo modificar y personalizar 
                         elementos del juego.
                     </p>
                     <div class="project-tech">
-                        <span class="tech-tag">Editor</span>
-                        <span class="tech-tag">Gaming</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">PHP</span>
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/MatFon73/BalatroEditor" target="_blank" class="project-link">
