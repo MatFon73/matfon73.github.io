@@ -18,12 +18,12 @@ const content = {
                 </p>
                 <div class="hero-stats">
                     <div class="stat-item">
-                        <div class="stat-number">1+</div>
+                        <div class="stat-number">1</div>
                         <div class="stat-label">Año de Experiencia</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">2</div>
-                        <div class="stat-label">Empresas</div>
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Experiencias</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">5+</div>
@@ -202,7 +202,7 @@ const content = {
             <h2 class="section-title"><i class="fa-solid fa-keyboard"></i> Experiencia Profesional</h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <div class="timeline-date">feb. 2023 - jun. 2023</div>
+                    <div class="timeline-date">Feb. 2023 - Jun. 2023</div>
                     <h3 class="timeline-title">Ingeniero de Sistemas</h3>
                     <p class="timeline-company">MUNICIPIO DE YONDO - Jornada parcial</p>
                     <p class="timeline-description">
@@ -211,23 +211,23 @@ const content = {
                     </p>
                 </div>
                 <div class="timeline-item">
-                    <div class="timeline-date">Abr. 2024 - Oct. 2025</div>
-                    <h3 class="timeline-title">Desarrollador Web Junior - Jornada Completa</h3>
-                    <p class="timeline-company">Fundeprocar</p>
-                    <p class="timeline-description">
-                        Desarrollo y mantenimiento de aplicaciones web usando PHP, HTML, CSS y JavaScript. 
-                        Trabajo en proyectos de e-commerce con WordPress, implementando funcionalidades 
-                        personalizadas y optimizando el rendimiento del sitio.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">Nov. 2024 - Mar. 2025 div>
-                    <h3 class="timeline-title">Desarrollador Web Junior</h3>
-                    <p class="timeline-company">Operacion sistemica - Jornada Completa</p>
+                    <div class="timeline-date">Abr. 2024 - Oct. 2024</div>
+                    <h3 class="timeline-title">Desarrollador Web Junior </h3>
+                    <p class="timeline-company">Fundeprocar - Jornada Completa</p>
                     <p class="timeline-description">
                         Desarrollo frontend y backend de aplicaciones web. Colaboración en proyectos 
                         con requerimientos cambiantes, implementando soluciones adaptables y escalables. 
                         Los proyectos desarrollados continúan activos en producción.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Nov. 2024 - Mar. 2025 </div>
+                    <h3 class="timeline-title">Desarrollador Web Junior</h3>
+                    <p class="timeline-company">Operación sistémica - Jornada Completa</p>
+                    <p class="timeline-description">
+                        Desarrollo y mantenimiento de aplicaciones web usando PHP, HTML, CSS y JavaScript. 
+                        Trabajo en proyectos de e-commerce con WordPress, implementando funcionalidades 
+                        personalizadas y optimizando el rendimiento del sitio.
                     </p>
                 </div>
             </div>
