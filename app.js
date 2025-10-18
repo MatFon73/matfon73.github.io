@@ -331,7 +331,7 @@ const content = {
                     </div>
                     <div class="project-links">
                         <a href="https://matfon73.github.io/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i>Ver Sitio</a>
-                        <a href="https://github.com/MatFon73/Portafolios" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                        <a href="https://github.com/MatFon73/matfon73.github.io" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> GitHub</a>
                     </div>
                 </div>
                 
