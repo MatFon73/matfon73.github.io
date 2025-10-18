@@ -262,7 +262,7 @@ const content = {
                         <span class="tech-tag">JavaScript</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/MatFon73/Cloud" target="_blank" class="project-link"><i class="fa-brands fa-github"></i>GitHub</a>
+                        <a href="https://github.com/MatFon73/Cloud" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> GitHub</a>
                     </div>
                 </div>
                 
@@ -283,7 +283,24 @@ const content = {
                         <a href="https://github.com/MatFon73/CrudUser" target="_blank" class="project-link"><i class="fa-brands fa-github"></i>GitHub</a>
                     </div>
                 </div>
-                
+                <div class="project-card">
+                    <span class="status-badge status-completed">En Linea</span>
+                    <h3 class="project-title">TaskManager</h3>
+                    <p class="project-description">
+                        aplicación de gestión de tareas, que le permite compartir
+                        listas a través de enlaces y almacenar datos en localStorage.
+                    </p>
+                    <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Tailwind</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://matfon73.github.io/TaskManager/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i>Ver Sitio</a>
+                        <a href="https://github.com/MatFon73/TaskManager" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
                 <div class="project-card">
                     <span class="status-badge status-completed">Completado</span>
                     <h3 class="project-title">RockPaperScissor</h3>
