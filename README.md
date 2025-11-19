@@ -20,8 +20,9 @@ portfolio/
 ├── app.js              
 ├── css/
 │   └── style.css       
-└── img/
-    └── profile.jpg 
+├── img/
+│     ├──  profile.jpg 
+└──   └──  preview.jpg 
 ```
 
 ## 🛠️ Tecnologías Utilizadas
