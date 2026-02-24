@@ -303,10 +303,9 @@ const content = {
                 </div>
                 <div class="project-card">
                     <span class="status-badge status-completed">Completado</span>
-                    <h3 class="project-title">RockPaperScissor</h3>
+                    <h3 class="project-title">VoltrexSMS</h3>
                     <p class="project-description">
-                        Juego clásico de piedra, papel o tijera implementado con JavaScript vanilla, 
-                        con interfaz interactiva y sistema de puntuación.
+                        Herramienta web para envío masivo de SMS y WhatsApp con carga de contactos desde archivos Excel.
                     </p>
                     <div class="project-tech">
                         <span class="tech-tag">HTML</span>
@@ -314,7 +313,8 @@ const content = {
                         <span class="tech-tag">JavaScript</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/MatFon73/RockPaperScissor" target="_blank" class="project-link"><i class="fa-brands fa-github"></i>GitHub</a>
+                        <a href="https://matfon73.github.io/VoltrexSMS/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i>Ver Sitio</a>
+                        <a href="https://github.com/MatFon73/VoltrexSMS" target="_blank" class="project-link"><i class="fa-brands fa-github"></i>GitHub</a>
                     </div>
                 </div>
                 
