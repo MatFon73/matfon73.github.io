@@ -393,26 +393,15 @@ function loadSection(section) {
     document.querySelectorAll('.cmd-btn').forEach(b => b.classList.remove('active'));
     const btn = document.querySelector(`.cmd-btn[data-section="${section}"]`);
     if (btn) btn.classList.add('active');
-
-    attachListeners();
-}
-
-function attachListeners() {
-    document.querySelectorAll('[data-section]').forEach(el => {
-        el.addEventListener('click', e => {
-            const section = e.currentTarget.getAttribute('data-section');
-            if (section) loadSection(section);
-        });
-    });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     loadSection('home');
+});
 
-    document.querySelectorAll('.cmd-btn').forEach(btn => {
-        btn.addEventListener('click', e => {
-            const section = e.currentTarget.getAttribute('data-section');
-            if (section) loadSection(section);
-        });
-    });
+document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-section]');
+    if (!btn) return;
+    const section = btn.getAttribute('data-section');
+    if (section) loadSection(section);
 });
