@@ -134,7 +134,7 @@ body::before {
 .titlebar-social a:hover { color: var(--accent); }
 
 .titlebar-status {
-    display: none;
+    display: flex;
     align-items: center;
     gap: 5px;
     font-size: 0.55rem;
@@ -193,7 +193,6 @@ body::before {
 .cmd-bar {
     display: flex;
     gap: 4px;
-    flex-wrap: wrap;
 }
 
 .cmd-btn {
@@ -222,15 +221,18 @@ body::before {
     box-shadow: 0 0 8px var(--accent-glow);
 }
 
-.term-status {
+.footer-social {
     display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 0.6rem;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
+    gap: 10px;
 }
+
+.footer-social a {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    transition: color var(--transition);
+}
+
+.footer-social a:hover { color: var(--accent); }
 
 .status-indicator {
     width: 5px; height: 5px;
@@ -834,10 +836,8 @@ body::before {
     .term-prompt-bar { padding: 8px 12px; font-size: 0.7rem; }
     .term-footer { padding: 6px 8px; }
 
-    .titlebar-status { display: flex; }
-    .titlebar-social a:nth-child(n+4) { display: none; }
+    .footer-social a:nth-child(n+4) { display: none; }
     .titlebar-path { font-size: 0.6rem; }
-    .term-status { display: none; }
 
     .cmd-bar {
         flex-wrap: nowrap;
@@ -886,7 +886,7 @@ body::before {
 }
 
 @media (max-width: 480px) {
-    .titlebar-social a:nth-child(n+3) { display: none; }
+    .footer-social a:nth-child(n+3) { display: none; }
     .titlebar-path { font-size: 0.55rem; }
     .hero-avatar { width: 52px; height: 52px; }
     .hero-title { font-size: 1rem; }

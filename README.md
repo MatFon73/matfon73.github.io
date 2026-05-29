@@ -19,7 +19,7 @@ portfolio/
 ├── index.html          
 ├── app.js              
 ├── css/
-│   └── style.css       
+│   └── styles.css      
 ├── img/
 │     ├──  profile.jpg 
 └──   └──  preview.jpg 
