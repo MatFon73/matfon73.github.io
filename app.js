@@ -199,16 +199,16 @@ const content = {
                     <div class="skill-bar"><div class="skill-fill intermediate"></div></div>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon"><i class="fa-brands fa-vuejs"></i></div>
-                    <div class="skill-name">vue.js</div>
-                    <div class="skill-level">básico</div>
-                    <div class="skill-bar"><div class="skill-fill basic"></div></div>
+                    <div class="skill-icon"><i class="fa-brands fa-react"></i></div>
+                    <div class="skill-name">react + vite</div>
+                    <div class="skill-level">intermedio</div>
+                    <div class="skill-bar"><div class="skill-fill intermediate"></div></div>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon"><i class="fa-brands fa-laravel"></i></div>
-                    <div class="skill-name">laravel</div>
-                    <div class="skill-level">básico</div>
-                    <div class="skill-bar"><div class="skill-fill basic"></div></div>
+                    <div class="skill-icon"><i class="fa-brands fa-node"></i></div>
+                    <div class="skill-name">express</div>
+                    <div class="skill-level">intermedio</div>
+                    <div class="skill-bar"><div class="skill-fill intermediate"></div></div>
                 </div>
                 <div class="skill-card">
                     <div class="skill-icon"><i class="fa-solid fa-robot"></i></div>
@@ -296,26 +296,14 @@ const content = {
                 </div>
                 <div class="project-card">
                     <span class="project-status live">en línea</span>
-                    <div class="project-title">taskmanager</div>
-                    <div class="project-desc">gestión de tareas con listas compartidas via enlaces y localStorage.</div>
-                    <div class="project-tech">
-                        <span class="tech-tag">html</span><span class="tech-tag">css</span><span class="tech-tag">vue.js</span><span class="tech-tag">tailwind</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://matfon73.github.io/TaskManager/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> demo</a>
-                        <a href="https://github.com/MatFon73/TaskManager" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> github</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <span class="project-status ok">completado</span>
-                    <div class="project-title">voltrexsms</div>
-                    <div class="project-desc">envío masivo de sms y whatsapp con carga de contactos desde excel.</div>
+                    <div class="project-title">nova2d web</div>
+                    <div class="project-desc">motor 2d para la web — renderizado, físicas y más desde el navegador.</div>
                     <div class="project-tech">
                         <span class="tech-tag">html</span><span class="tech-tag">css</span><span class="tech-tag">js</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://matfon73.github.io/VoltrexSMS/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> demo</a>
-                        <a href="https://github.com/MatFon73/VoltrexSMS" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> github</a>
+                        <a href="https://nova2d.pages.dev/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> demo</a>
+                        <a href="https://github.com/CyberDevStudios/Nova2d" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> github</a>
                     </div>
                 </div>
                 <div class="project-card">
