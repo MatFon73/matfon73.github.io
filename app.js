@@ -296,13 +296,13 @@ const content = {
                 </div>
                 <div class="project-card">
                     <span class="project-status live">en línea</span>
-                    <div class="project-title">nova2d web</div>
-                    <div class="project-desc">motor 2d para la web — renderizado, físicas y más desde el navegador.</div>
+                    <div class="project-title">nova2d</div>
+                    <div class="project-desc">Nova2D es un framework para Love2D que estandariza la estructura del proyecto.</div>
                     <div class="project-tech">
-                        <span class="tech-tag">html</span><span class="tech-tag">css</span><span class="tech-tag">js</span>
+                        <span class="tech-tag">lua</span><span class="tech-tag">love2d</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://nova2d.pages.dev/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> demo</a>
+                        <a href="https://nova2d.pages.dev/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> web</a>
                         <a href="https://github.com/CyberDevStudios/Nova2d" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> github</a>
                     </div>
                 </div>
