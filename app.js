@@ -288,7 +288,7 @@ const content = {
                     <div class="project-title">Cyber Dev Studios</div>
                     <div class="project-desc">empresa de desarrollo de videojuegos indie.</div>
                     <div class="project-tech">
-                        <span class="tech-tag">php</span><span class="tech-tag">html</span><span class="tech-tag">css</span><span class="tech-tag">js</span>
+                        <span class="tech-tag">React + Vite</span><span class="tech-tag">Express + Prisma</span><span class="tech-tag">MySQL</span>
                     </div>
                     <div class="project-links">
                         <a href="https://cyberdevstudios.pages.dev/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> web</a>
@@ -311,7 +311,7 @@ const content = {
                     <div class="project-title">portafolio</div>
                     <div class="project-desc">sitio personal — este mismo terminal.</div>
                     <div class="project-tech">
-                        <span class="tech-tag">html</span><
+                        <span class="tech-tag">html</span><span class="tech-tag">css</span><span class="tech-tag">js</span>
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/MatFon73/matfon73.github.io" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> github</a>
@@ -322,10 +322,10 @@ const content = {
                     <div class="project-title">balatroeditor</div>
                     <div class="project-desc">editor personalizado para el juego balatro.</div>
                     <div class="project-tech">
-                        <span class="tech-tag">html</span><span class="tech-tag">css</span><span class="tech-tag">js</span><span class="tech-tag">php</span>
+                        <span class="tech-tag">html</span><span class="tech-tag">css</span><span class="tech-tag">js</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://matfon73.github.io/BalatroEditor/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> demo</a>
+                        <a href="https://matfon73.github.io/BalatroEditor/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> web</a>
                         <a href="https://github.com/MatFon73/BalatroEditor" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> github</a>
                     </div>
                 </div>
@@ -334,14 +334,14 @@ const content = {
                     <div class="project-title">Familia Fonseca</div>
                     <div class="project-desc">Carta de presentación para la familia Fonseca.</div>
                     <div class="project-tech">
-                        <span class="tech-tag">html</span><span class="tech-tag">css</span><span class="tech-tag">js</span><span class="tech-tag">php</span>
+                        <span class="tech-tag">React + Vite</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://fonsecacifuentes.pages.dev/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> demo</a>
+                        <a href="https://fonsecacifuentes.pages.dev/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> web</a>
                     </div>
                 </div>
             </div>
-        </div>span class="tech-tag">css</span><span class="tech-tag">js</span>
+        </div>
     `,
 
     contact: `
