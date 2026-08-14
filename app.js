@@ -284,14 +284,14 @@ const content = {
                     </div>
                 </div>
                 <div class="project-card">
-                    <span class="project-status ok">completado</span>
-                    <div class="project-title">cruduser</div>
-                    <div class="project-desc">gestión de registros mysql con creación, lectura, edición y eliminación.</div>
+                    <span class="project-status live">en línea</span>
+                    <div class="project-title">Cyber Dev Studios</div>
+                    <div class="project-desc">empresa de desarrollo de videojuegos indie.</div>
                     <div class="project-tech">
                         <span class="tech-tag">php</span><span class="tech-tag">html</span><span class="tech-tag">css</span><span class="tech-tag">js</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/MatFon73/CrudUser" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> github</a>
+                        <a href="https://cyberdevstudios.pages.dev/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> web</a>
                     </div>
                 </div>
                 <div class="project-card">
@@ -302,7 +302,7 @@ const content = {
                         <span class="tech-tag">lua</span><span class="tech-tag">love2d</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://nova2d.pages.dev/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> web</a>
+                        <a href="https://nova2d.dev/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> web</a>
                         <a href="https://github.com/CyberDevStudios/Nova2d" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> github</a>
                     </div>
                 </div>
@@ -311,7 +311,7 @@ const content = {
                     <div class="project-title">portafolio</div>
                     <div class="project-desc">sitio personal — este mismo terminal.</div>
                     <div class="project-tech">
-                        <span class="tech-tag">html</span><span class="tech-tag">css</span><span class="tech-tag">js</span>
+                        <span class="tech-tag">html</span><
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/MatFon73/matfon73.github.io" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> github</a>
@@ -329,8 +329,19 @@ const content = {
                         <a href="https://github.com/MatFon73/BalatroEditor" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> github</a>
                     </div>
                 </div>
+                <div class="project-card">
+                    <span class="project-status wip">en proceso</span>
+                    <div class="project-title">Familia Fonseca</div>
+                    <div class="project-desc">Carta de presentación para la familia Fonseca.</div>
+                    <div class="project-tech">
+                        <span class="tech-tag">html</span><span class="tech-tag">css</span><span class="tech-tag">js</span><span class="tech-tag">php</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://fonsecacifuentes.pages.dev/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> demo</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </div>span class="tech-tag">css</span><span class="tech-tag">js</span>
     `,
 
     contact: `
