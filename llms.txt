@@ -1,0 +1,33 @@
+# Mateo Fonseca — Portafolio
+
+> Portafolio personal de Mateo Fonseca, ingeniero de sistemas y desarrollador full stack.
+
+## Sobre mí
+
+Ingeniero de sistemas especializado en desarrollo web full stack y seguridad informática, con 1 año de experiencia como desarrollador junior en producción. Enfocado en código limpio, eficiente y mantenible, y en el aprendizaje continuo aplicando mejores prácticas.
+
+## Contacto
+
+- GitHub: https://github.com/MatFon73
+- LinkedIn: https://linkedin.com/in/mateo-fonseca-ab939a164
+- X / Twitter: https://x.com/MatFon73
+- Instagram: https://www.instagram.com/matfon73/
+
+## Stack y tecnologías
+
+HTML, CSS, JavaScript, PHP, Bootstrap, WordPress, MySQL, Linux, Git, GitHub, React + Vite, Express, Node.js, IA y agentes.
+
+## Proyectos destacados
+
+- [Cloud](https://github.com/MatFon73/Cloud): sistema de almacenamiento en la nube para gestionar y compartir archivos (PHP, HTML, CSS, JS).
+- [Cyber Dev Studios](https://cyberdevstudios.pages.dev/): empresa de desarrollo de videojuegos indie (React + Vite, Express + Prisma, MySQL).
+- [Nova2D](https://nova2d.dev/): framework para Love2D que estandariza la estructura de proyectos (Lua, Love2D).
+- [BalatroEditor](https://matfon73.github.io/BalatroEditor/): editor personalizado para el juego Balatro (HTML, CSS, JS).
+- [Familia Fonseca](https://fonsecacifuentes.pages.dev/): carta de presentación para la familia Fonseca (React + Vite).
+- [Portafolio](https://matfon73.github.io/): sitio personal — este mismo terminal (HTML, CSS, JS).
+
+## Experiencia
+
+- **Municipio de Yondó** — ingeniero de sistemas (feb 2023 — jun 2023). Despliegue de infraestructura tecnológica, auditoría de sistemas y mantenimiento de computadores.
+- **Fundeprocar** — desarrollador web junior (abr 2024 — oct 2024). Desarrollo frontend y backend de aplicaciones web en producción.
+- **Operación Sistémica** — desarrollador web junior (nov 2024 — mar 2025). Desarrollo y mantenimiento de aplicaciones web (PHP, HTML, CSS, JS) y e-commerce con WordPress.

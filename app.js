@@ -382,12 +382,26 @@ const content = {
     `
 };
 
+const sectionLabels = {
+    home: 'Inicio',
+    about: 'Acerca de',
+    skills: 'Habilidades',
+    experience: 'Experiencia',
+    projects: 'Proyectos',
+    contact: 'Contacto',
+};
+
 function loadSection(section) {
     const area = document.getElementById('content-area');
     const input = document.getElementById('prompt-input');
+    const announcer = document.getElementById('section-announcer');
 
     area.innerHTML = content[section];
     input.textContent = CMD[section];
+
+    if (announcer) {
+        announcer.textContent = `Sección: ${sectionLabels[section] || section}`;
+    }
 
     document.querySelectorAll('.cmd-btn').forEach(b => b.classList.remove('active'));
     const btn = document.querySelector(`.cmd-btn[data-section="${section}"]`);
